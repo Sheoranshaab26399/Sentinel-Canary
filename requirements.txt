@@ -1,0 +1,10 @@
+# Core ke liye KUCH required nahi — sab stdlib pe chalta hai.
+# Neeche OPTIONAL features ke liye hain (guarded imports — na ho toh bhi chalega).
+
+watchdog      # live filesystem monitoring (python -m sentinel_canary.main live)
+psutil        # process identify + kill (mitigation)
+fastapi       # web dashboard
+uvicorn       # dashboard server
+plyer         # desktop notifications
+cryptography  # real AES ransomware simulator (real-sim)
+scikit-learn  # optional ML classifier (train_models.py)

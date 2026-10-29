@@ -1,0 +1,18 @@
+# Excluded project files
+SentinelCanary_Concepts_Guide.html
+SentinelCanary_Demo_Guide.html
+What is SC.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+
+# SQLite journal
+*.db-journal
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
