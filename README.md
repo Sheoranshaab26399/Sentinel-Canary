@@ -9,7 +9,7 @@ Traditional antivirus **signatures** pe chalta hai — naya/polymorphic ransomwa
 miss ho jata hai. Hum **behaviour** dekhte hain: kaun canary file chhu raha hai,
 kitni high-entropy se, aur kitni speed se — toh zero-day bhi pakda jata hai.
 
-## Pipeline
+## Pipeline 
 ```
 canary files → watcher/simulator → detector(entropy+rate) → score 0-100+reasons
             → mitigation(watchlist→temp→perm) → SQLite + alert → dashboard
